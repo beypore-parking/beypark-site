@@ -48,7 +48,7 @@ export default function App() {
       >
         <div className="relative z-[20] flex bg-[#f6f7f7] flex-1 mb-[48vh] md:mb-[40vh] rounded-b-2xl overflow-hidden">
           <Navbar />
-          <main className="flex-1 min-h-screen">
+          <main className="flex-1 ">
             <Routes>
               <Route path="/" element={<Home />} />
             </Routes>
