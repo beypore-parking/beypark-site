@@ -5,7 +5,7 @@ import { Navbar } from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import { useUserStats } from "./helpers/useUserStats"
+import { useUserStats } from "./helpers/useUserStats";
 
 trefoil.register();
 
