@@ -3,7 +3,7 @@ import React from "react";
 export default function Schedule() {
   return (
     <section className="min-h-screen py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10">
+      <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 pt-10 w-full">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8 gap-4">
           <div>
             <h1 className="text-4xl font-extrabold mb-2">Beypore International Water Fest Season 5</h1>
@@ -25,18 +25,18 @@ export default function Schedule() {
 
         {/* Day 1 */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold mb-6 pb-3 border-b-2 border-gray-200">Day 1 - December 26, Friday</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 pb-2 sm:pb-3 border-b-2 border-gray-200">Day 1 - December 26, Friday</h2>
           
           {/* Stage 1 */}
           <div className="mb-10">
-            <h3 className="text-xl font-bold mb-4 text-gray-800">STAGE 1 - BEYPORE MARINA</h3>
-            <div className="overflow-x-auto">
-              <table className="min-w-full border border-gray-300">
+            <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-800">STAGE 1 - BEYPORE MARINA</h3>
+            <div className="overflow-x-auto -mx-4 sm:mx-0">
+              <table className="min-w-full border border-gray-300 text-sm sm:text-base">
                 <thead>
                   <tr className="bg-gray-50">
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Time</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Item</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Venue</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Time</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Item</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Venue</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -95,8 +95,8 @@ export default function Schedule() {
             </div>
             
             {/* Kudumbashree Cultural Festival */}
-            <div className="mt-6 p-4 border border-gray-300 bg-gray-50">
-              <h4 className="font-bold text-lg mb-3">4 PM - 10 PM: Kudumbashree Cultural Festival</h4>
+            <div className="mt-4 sm:mt-6 p-3 sm:p-4 border border-gray-300 bg-gray-50">
+              <h4 className="font-bold text-base sm:text-lg mb-2 sm:mb-3">4 PM - 10 PM: Kudumbashree Cultural Festival</h4>
               <ul className="list-disc pl-6 space-y-1">
                 <li>GROUP DANCE</li>
                 <li>SANGHAGANAM</li>
@@ -109,14 +109,14 @@ export default function Schedule() {
 
           {/* Stage 2 */}
           <div className="mb-10">
-            <h3 className="text-xl font-bold mb-4 text-gray-800">STAGE 2 - OCEANUS CHALIYAM</h3>
-            <div className="overflow-x-auto">
-              <table className="min-w-full border border-gray-300">
+            <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-800">STAGE 2 - OCEANUS CHALIYAM</h3>
+            <div className="overflow-x-auto -mx-4 sm:mx-0">
+              <table className="min-w-full border border-gray-300 text-sm sm:text-base">
                 <thead>
                   <tr className="bg-gray-50">
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Time</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Item</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Venue</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Time</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Item</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Venue</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -132,14 +132,14 @@ export default function Schedule() {
 
           {/* Stage 3 */}
           <div className="mb-10">
-            <h3 className="text-xl font-bold mb-4 text-gray-800">STAGE 3 - NALLUR MINI STADIUM</h3>
-            <div className="overflow-x-auto">
-              <table className="min-w-full border border-gray-300">
+            <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-800">STAGE 3 - NALLUR MINI STADIUM</h3>
+            <div className="overflow-x-auto -mx-4 sm:mx-0">
+              <table className="min-w-full border border-gray-300 text-sm sm:text-base">
                 <thead>
                   <tr className="bg-gray-50">
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Time</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Item</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Venue</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Time</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Item</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Venue</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -160,14 +160,14 @@ export default function Schedule() {
 
           {/* Stage 4 */}
           <div className="mb-10">
-            <h3 className="text-xl font-bold mb-4 text-gray-800">STAGE 4 - MULLAVEETTIL ABDU RAHIMAN PARK, RAHMAN BAZAR</h3>
-            <div className="overflow-x-auto">
-              <table className="min-w-full border border-gray-300">
+            <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-800">STAGE 4 - MULLAVEETTIL ABDU RAHIMAN PARK, RAHMAN BAZAR</h3>
+            <div className="overflow-x-auto -mx-4 sm:mx-0">
+              <table className="min-w-full border border-gray-300 text-sm sm:text-base">
                 <thead>
                   <tr className="bg-gray-50">
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Time</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Item</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Venue</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Time</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Item</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Venue</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -183,14 +183,14 @@ export default function Schedule() {
 
           {/* Stage 5 */}
           <div className="mb-10">
-            <h3 className="text-xl font-bold mb-4 text-gray-800">STAGE 5 - RAMANATTUKARA GUP SCHOOL</h3>
-            <div className="overflow-x-auto">
-              <table className="min-w-full border border-gray-300">
+            <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-800">STAGE 5 - RAMANATTUKARA GUP SCHOOL</h3>
+            <div className="overflow-x-auto -mx-4 sm:mx-0">
+              <table className="min-w-full border border-gray-300 text-sm sm:text-base">
                 <thead>
                   <tr className="bg-gray-50">
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Time</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Item</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Venue</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Time</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Item</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Venue</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -206,14 +206,14 @@ export default function Schedule() {
 
           {/* Stage 6 */}
           <div className="mb-10">
-            <h3 className="text-xl font-bold mb-4 text-gray-800">STAGE 6 - CHERUVANNUR WE PARK</h3>
-            <div className="overflow-x-auto">
-              <table className="min-w-full border border-gray-300">
+            <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-800">STAGE 6 - CHERUVANNUR WE PARK</h3>
+            <div className="overflow-x-auto -mx-4 sm:mx-0">
+              <table className="min-w-full border border-gray-300 text-sm sm:text-base">
                 <thead>
                   <tr className="bg-gray-50">
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Time</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Item</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Venue</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Time</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Item</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Venue</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -229,14 +229,14 @@ export default function Schedule() {
 
           {/* Stage 7 */}
           <div className="mb-10">
-            <h3 className="text-xl font-bold mb-4 text-gray-800">STAGE 7 - NALLALAM WE PARK</h3>
-            <div className="overflow-x-auto">
-              <table className="min-w-full border border-gray-300">
+            <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-800">STAGE 7 - NALLALAM WE PARK</h3>
+            <div className="overflow-x-auto -mx-4 sm:mx-0">
+              <table className="min-w-full border border-gray-300 text-sm sm:text-base">
                 <thead>
                   <tr className="bg-gray-50">
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Time</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Item</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Venue</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Time</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Item</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Venue</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -253,18 +253,18 @@ export default function Schedule() {
 
         {/* Day 2 */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold mb-6 pb-3 border-b-2 border-gray-200">Day 2 - December 27, Saturday</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 pb-2 sm:pb-3 border-b-2 border-gray-200">Day 2 - December 27, Saturday</h2>
           
           {/* Stage 1 - Day 2 */}
           <div className="mb-10">
-            <h3 className="text-xl font-bold mb-4 text-gray-800">STAGE 1 - BEYPORE MARINA</h3>
-            <div className="overflow-x-auto">
-              <table className="min-w-full border border-gray-300">
+            <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-800">STAGE 1 - BEYPORE MARINA</h3>
+            <div className="overflow-x-auto -mx-4 sm:mx-0">
+              <table className="min-w-full border border-gray-300 text-sm sm:text-base">
                 <thead>
                   <tr className="bg-gray-50">
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Time</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Item</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Venue</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Time</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Item</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Venue</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -341,14 +341,14 @@ export default function Schedule() {
 
           {/* Stage 2 - Day 2 */}
         <div className="mb-10">
-            <h3 className="text-xl font-bold mb-4 text-gray-800">STAGE 2 - OCEANUS CHALIYAM</h3>
-            <div className="overflow-x-auto">
-            <table className="min-w-full border border-gray-300">
+            <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-800">STAGE 2 - OCEANUS CHALIYAM</h3>
+            <div className="overflow-x-auto -mx-4 sm:mx-0">
+            <table className="min-w-full border border-gray-300 text-sm sm:text-base">
                 <thead>
                 <tr className="bg-gray-50">
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Time</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Item</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Venue</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Time</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Item</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Venue</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -369,14 +369,14 @@ export default function Schedule() {
 
         {/* Stage 3 - Day 2 */}
         <div className="mb-10">
-            <h3 className="text-xl font-bold mb-4 text-gray-800">STAGE 3 - NALLUR MINI STADIUM</h3>
-            <div className="overflow-x-auto">
-            <table className="min-w-full border border-gray-300">
+            <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-800">STAGE 3 - NALLUR MINI STADIUM</h3>
+            <div className="overflow-x-auto -mx-4 sm:mx-0">
+            <table className="min-w-full border border-gray-300 text-sm sm:text-base">
                 <thead>
                 <tr className="bg-gray-50">
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Time</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Item</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Venue</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Time</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Item</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Venue</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -392,14 +392,14 @@ export default function Schedule() {
 
         {/* Stage 4 - Day 2 */}
         <div className="mb-10">
-            <h3 className="text-xl font-bold mb-4 text-gray-800">STAGE 4 - MULLAVEETTIL ABDU RAHIMAN PARK, RAHMAN BAZAR</h3>
-            <div className="overflow-x-auto">
-            <table className="min-w-full border border-gray-300">
+            <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-800">STAGE 4 - MULLAVEETTIL ABDU RAHIMAN PARK, RAHMAN BAZAR</h3>
+            <div className="overflow-x-auto -mx-4 sm:mx-0">
+            <table className="min-w-full border border-gray-300 text-sm sm:text-base">
                 <thead>
                 <tr className="bg-gray-50">
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Time</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Item</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Venue</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Time</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Item</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Venue</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -415,14 +415,14 @@ export default function Schedule() {
 
         {/* Stage 5 - Day 2 */}
         <div className="mb-10">
-            <h3 className="text-xl font-bold mb-4 text-gray-800">STAGE 5 - RAMANATTUKARA GUP SCHOOL</h3>
-            <div className="overflow-x-auto">
-            <table className="min-w-full border border-gray-300">
+            <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-800">STAGE 5 - RAMANATTUKARA GUP SCHOOL</h3>
+            <div className="overflow-x-auto -mx-4 sm:mx-0">
+            <table className="min-w-full border border-gray-300 text-sm sm:text-base">
                 <thead>
                 <tr className="bg-gray-50">
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Time</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Item</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Venue</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Time</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Item</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Venue</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -438,14 +438,14 @@ export default function Schedule() {
 
         {/* Stage 6 - Day 2 */}
         <div className="mb-10">
-            <h3 className="text-xl font-bold mb-4 text-gray-800">STAGE 6 - CHERUVANNUR WE PARK</h3>
-            <div className="overflow-x-auto">
-            <table className="min-w-full border border-gray-300">
+            <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-800">STAGE 6 - CHERUVANNUR WE PARK</h3>
+            <div className="overflow-x-auto -mx-4 sm:mx-0">
+            <table className="min-w-full border border-gray-300 text-sm sm:text-base">
                 <thead>
                 <tr className="bg-gray-50">
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Time</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Item</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Venue</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Time</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Item</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Venue</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -461,14 +461,14 @@ export default function Schedule() {
 
         {/* Stage 7 - Day 2 */}
         <div className="mb-10">
-            <h3 className="text-xl font-bold mb-4 text-gray-800">STAGE 7 - NALLALAM WE PARK</h3>
-            <div className="overflow-x-auto">
-            <table className="min-w-full border border-gray-300">
+            <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-800">STAGE 7 - NALLALAM WE PARK</h3>
+            <div className="overflow-x-auto -mx-4 sm:mx-0">
+            <table className="min-w-full border border-gray-300 text-sm sm:text-base">
                 <thead>
                 <tr className="bg-gray-50">
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Time</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Item</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Venue</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Time</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Item</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Venue</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -487,7 +487,7 @@ export default function Schedule() {
 
         {/* Day 3 */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold mb-6 pb-3 border-b-2 border-gray-200">Day 3 - December 28, Sunday</h2>
+          <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 pb-2 sm:pb-3 border-b-2 border-gray-200">Day 3 - December 28, Sunday</h2>
           
           {/* Marathon */}
           <div className="mb-6 p-4 border border-gray-300 bg-gray-50">
@@ -497,14 +497,14 @@ export default function Schedule() {
 
           {/* Stage 1 - Day 3 */}
           <div className="mb-10">
-            <h3 className="text-xl font-bold mb-4 text-gray-800">STAGE 1 - BEYPORE MARINA</h3>
-            <div className="overflow-x-auto">
-              <table className="min-w-full border border-gray-300">
+            <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-800">STAGE 1 - BEYPORE MARINA</h3>
+            <div className="overflow-x-auto -mx-4 sm:mx-0">
+              <table className="min-w-full border border-gray-300 text-sm sm:text-base">
                 <thead>
                   <tr className="bg-gray-50">
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Time</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Item</th>
-                    <th className="border border-gray-300 px-4 py-3 text-left font-bold">Venue</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Time</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Item</th>
+                    <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Venue</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -538,8 +538,8 @@ export default function Schedule() {
             </div>
             
             {/* Residential Cultural Festival */}
-            <div className="mt-6 p-4 border border-gray-300 bg-gray-50">
-              <h4 className="font-bold text-lg mb-3">9 AM - 10 PM: RESIDENTIAL CULTURAL FESTIVAL</h4>
+            <div className="mt-4 sm:mt-6 p-3 sm:p-4 border border-gray-300 bg-gray-50">
+              <h4 className="font-bold text-base sm:text-lg mb-2 sm:mb-3">9 AM - 10 PM: RESIDENTIAL CULTURAL FESTIVAL</h4>
               <ul className="list-disc pl-6 space-y-1">
                 <li>COMEDY SKIT</li>
                 <li>NOSTALGIC DANCE</li>
@@ -551,14 +551,14 @@ export default function Schedule() {
           </div>
 
            <div className="mb-10">
-    <h3 className="text-xl font-bold mb-4 text-gray-800">STAGE 1 - BEYPORE MARINA</h3>
-    <div className="overflow-x-auto">
-      <table className="min-w-full border border-gray-300">
+    <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-800">STAGE 1 - BEYPORE MARINA</h3>
+    <div className="overflow-x-auto -mx-4 sm:mx-0">
+      <table className="min-w-full border border-gray-300 text-sm sm:text-base">
         <thead>
           <tr className="bg-gray-50">
-            <th className="border border-gray-300 px-4 py-3 text-left font-bold">Time</th>
-            <th className="border border-gray-300 px-4 py-3 text-left font-bold">Item</th>
-            <th className="border border-gray-300 px-4 py-3 text-left font-bold">Venue</th>
+            <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Time</th>
+            <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Item</th>
+            <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Venue</th>
           </tr>
         </thead>
         <tbody>
@@ -641,14 +641,14 @@ export default function Schedule() {
 
     {/* Stage 2 - Day 3 */}
     <div className="mb-10">
-        <h3 className="text-xl font-bold mb-4 text-gray-800">STAGE 2 - OCEANUS CHALIYAM</h3>
-        <div className="overflow-x-auto">
-        <table className="min-w-full border border-gray-300">
+        <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-800">STAGE 2 - OCEANUS CHALIYAM</h3>
+        <div className="overflow-x-auto -mx-4 sm:mx-0">
+        <table className="min-w-full border border-gray-300 text-sm sm:text-base">
             <thead>
             <tr className="bg-gray-50">
-                <th className="border border-gray-300 px-4 py-3 text-left font-bold">Time</th>
-                <th className="border border-gray-300 px-4 py-3 text-left font-bold">Item</th>
-                <th className="border border-gray-300 px-4 py-3 text-left font-bold">Venue</th>
+                <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Time</th>
+                <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Item</th>
+                <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Venue</th>
             </tr>
             </thead>
             <tbody>
@@ -673,14 +673,14 @@ export default function Schedule() {
 
     {/* Stage 3 - Day 3 */}
     <div className="mb-10">
-        <h3 className="text-xl font-bold mb-4 text-gray-800">STAGE 3 - NALLUR MINI STADIUM</h3>
-        <div className="overflow-x-auto">
-        <table className="min-w-full border border-gray-300">
+        <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-800">STAGE 3 - NALLUR MINI STADIUM</h3>
+        <div className="overflow-x-auto -mx-4 sm:mx-0">
+        <table className="min-w-full border border-gray-300 text-sm sm:text-base">
             <thead>
             <tr className="bg-gray-50">
-                <th className="border border-gray-300 px-4 py-3 text-left font-bold">Time</th>
-                <th className="border border-gray-300 px-4 py-3 text-left font-bold">Item</th>
-                <th className="border border-gray-300 px-4 py-3 text-left font-bold">Venue</th>
+                <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Time</th>
+                <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Item</th>
+                <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Venue</th>
             </tr>
             </thead>
             <tbody>
@@ -696,14 +696,14 @@ export default function Schedule() {
 
     {/* Stage 4 - Day 3 */}
     <div className="mb-10">
-        <h3 className="text-xl font-bold mb-4 text-gray-800">STAGE 4 - MULLAVEETTIL ABDU RAHIMAN PARK, RAHMAN BAZAR</h3>
-        <div className="overflow-x-auto">
-        <table className="min-w-full border border-gray-300">
+        <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-800">STAGE 4 - MULLAVEETTIL ABDU RAHIMAN PARK, RAHMAN BAZAR</h3>
+        <div className="overflow-x-auto -mx-4 sm:mx-0">
+        <table className="min-w-full border border-gray-300 text-sm sm:text-base">
             <thead>
             <tr className="bg-gray-50">
-                <th className="border border-gray-300 px-4 py-3 text-left font-bold">Time</th>
-                <th className="border border-gray-300 px-4 py-3 text-left font-bold">Item</th>
-                <th className="border border-gray-300 px-4 py-3 text-left font-bold">Venue</th>
+                <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Time</th>
+                <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Item</th>
+                <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Venue</th>
             </tr>
             </thead>
             <tbody>
@@ -719,14 +719,14 @@ export default function Schedule() {
 
     {/* Stage 5 - Day 3 */}
     <div className="mb-10">
-        <h3 className="text-xl font-bold mb-4 text-gray-800">STAGE 5 - RAMANATTUKARA GUP SCHOOL</h3>
-        <div className="overflow-x-auto">
-        <table className="min-w-full border border-gray-300">
+        <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-800">STAGE 5 - RAMANATTUKARA GUP SCHOOL</h3>
+        <div className="overflow-x-auto -mx-4 sm:mx-0">
+        <table className="min-w-full border border-gray-300 text-sm sm:text-base">
             <thead>
             <tr className="bg-gray-50">
-                <th className="border border-gray-300 px-4 py-3 text-left font-bold">Time</th>
-                <th className="border border-gray-300 px-4 py-3 text-left font-bold">Item</th>
-                <th className="border border-gray-300 px-4 py-3 text-left font-bold">Venue</th>
+                <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Time</th>
+                <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Item</th>
+                <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Venue</th>
             </tr>
             </thead>
             <tbody>
@@ -742,14 +742,14 @@ export default function Schedule() {
 
     {/* Stage 6 - Day 3 */}
     <div className="mb-10">
-        <h3 className="text-xl font-bold mb-4 text-gray-800">STAGE 6 - CHERUVANNUR WE PARK</h3>
-        <div className="overflow-x-auto">
-        <table className="min-w-full border border-gray-300">
+        <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-800">STAGE 6 - CHERUVANNUR WE PARK</h3>
+        <div className="overflow-x-auto -mx-4 sm:mx-0">
+        <table className="min-w-full border border-gray-300 text-sm sm:text-base">
             <thead>
             <tr className="bg-gray-50">
-                <th className="border border-gray-300 px-4 py-3 text-left font-bold">Time</th>
-                <th className="border border-gray-300 px-4 py-3 text-left font-bold">Item</th>
-                <th className="border border-gray-300 px-4 py-3 text-left font-bold">Venue</th>
+                <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Time</th>
+                <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Item</th>
+                <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Venue</th>
             </tr>
             </thead>
             <tbody>
@@ -765,14 +765,14 @@ export default function Schedule() {
 
     {/* Stage 7 - Day 3 */}
     <div className="mb-10">
-        <h3 className="text-xl font-bold mb-4 text-gray-800">STAGE 7 - NALLALAM WE PARK</h3>
-        <div className="overflow-x-auto">
-        <table className="min-w-full border border-gray-300">
+        <h3 className="text-lg sm:text-xl font-bold mb-3 sm:mb-4 text-gray-800">STAGE 7 - NALLALAM WE PARK</h3>
+        <div className="overflow-x-auto -mx-4 sm:mx-0">
+        <table className="min-w-full border border-gray-300 text-sm sm:text-base">
             <thead>
             <tr className="bg-gray-50">
-                <th className="border border-gray-300 px-4 py-3 text-left font-bold">Time</th>
-                <th className="border border-gray-300 px-4 py-3 text-left font-bold">Item</th>
-                <th className="border border-gray-300 px-4 py-3 text-left font-bold">Venue</th>
+                <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Time</th>
+                <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Item</th>
+                <th className="border border-gray-300 px-3 py-2 sm:px-4 sm:py-3 text-left font-bold text-sm sm:text-base">Venue</th>
             </tr>
             </thead>
             <tbody>
